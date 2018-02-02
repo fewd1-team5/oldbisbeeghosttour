@@ -1,0 +1,125 @@
+/* ------ COLORS -------------------------- 
+
+orange:     #e5b86f
+            rgb()
+yellow:     #eac373
+            rgb()
+drakgreen:  #999933
+            rgb()
+green:      #656A07
+            rgb()
+
+---------------------------------------- */
+
+/* ------ FONTS ---------------------------
+
+font-family: 'Old Standard TT', serif;
+font-family: 'PT Sans', sans-serif;
+
+---------------------------------------- */
+
+/* CONTENT */
+    #decoration{
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+    .deco{
+        text-align:center;
+        margin: 0 auto;
+        
+    }
+
+    .decoborder1{
+        padding-top:40px;
+    }
+
+    .decoborder2{
+        padding-bottom:40px;
+
+    }
+
+
+
+    /* SECTION 1 ----------------------- */
+
+    
+    #about{
+        color:white;
+        background-color:black;
+        margin: 0 5px;
+        box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+        border-radius:10px 10px 0 0 ;
+    }
+    #intro_text{
+        padding:0 10px;
+    }
+    #celebrating{
+        background-color:darkred;
+        padding:5px 10px;
+        font-family: 'Old Standard TT', serif;
+    }
+    .black{
+        color:black;
+        border-bottom:1px solid black;
+    }
+    #album{
+           color:black;
+            background:url(../../images/ABOUT_US/paper.jpg);
+            margin: 0 10px;
+            box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+    }
+    .host{
+        box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+        margin:0 5px;
+    }
+    #host_content{
+        margin:20px 10px 0;
+        padding:20px 20px 0;
+        background-color:rgba(255,255,255,0.5);
+    }
+
+    /* Aside --------------------------- */
+
+    aside{
+        background: black;
+        border-radius:10px;
+        box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+    }
+    #promo{
+        color:white;
+        text-align:justify;
+        padding:10px;
+    }
+
+    /* SECTION 2 ----------------------- */
+
+    #section2 {
+        height:433px;
+        background: url(../../images/ABOUT_US/BG_footer.png) no-repeat;
+        background-size: cover;
+    }
+
+    #bgslide1{
+        background-color:white;
+    }
+
+    #booksell{
+        background: rgba(0,0,0,0.7);
+        border-radius:10px;
+        color:white;
+        font-size:0.8em;
+        height:240px;
+        margin:160px 0 0 40px;
+        padding:10px;
+        box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+    }
+
+/* FOOTER -----------------------------------*/
+
+.smicon{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+

@@ -1,0 +1,159 @@
+/* ------ COLORS -------------------------- 
+
+orange:     #e5b86f
+            rgb()
+yellow:     #eac373
+            rgb()
+drakgreen:  #99933
+            rgb()
+green:      #656A07
+            rgb()
+
+---------------------------------------- */
+
+/* ------ FONTS ---------------------------
+
+font-family: 'Old Standard TT', serif;
+font-family: 'PT Sans', sans-serif;
+
+---------------------------------------- */
+
+body {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#logo {
+    height: 153px; 
+    background: url('../images/logo.png') no-repeat center;
+}
+
+.row {
+    justify-content: center;
+}
+
+/*nav {
+    border-top: 1px solid #e5b86f;
+    border-bottom: 1px solid #e5b86f;
+    height: 30px;
+    background-color: rgba(101, 106, 7, 0.4);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 1em;
+    margin: 0 20px 0 20px;
+}
+
+nav ul li a {
+    color: #e5b86f;
+    text-decoration: none;
+    letter-spacing: -0.01em;
+}
+
+span {
+    color: #e5b86f;
+}
+
+nav ul li a:hover {color:#eac373;} */
+
+#vintage-top-border {
+    margin: 40px 0 30px 0;
+    height: 86px;
+    background: url('../images/vintage-border.svg') no-repeat center;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+h1 {
+    text-align: center;
+    color: #eac373
+}
+
+.faq {
+   justify-content: center; 
+}
+
+/* ---------- ACCORDION MENU --------*/
+
+
+.accordion h3 {
+    font-size: 1.2em;
+    padding: 10px 30px 10px 10px;
+    color: wheat;
+    background-color: #3d3d14;
+    background: #3d3d14 url('../images/down-arrow.svg') no-repeat right;
+    cursor: pointer;
+}
+
+.accordion h3.active {
+	background: #3d3d14 url('../images/up-arrow.svg') no-repeat right;
+}
+
+.accordion h3:first-of-type {
+    border-radius: 10px 10px 0 0;
+}
+
+.accordion p {
+    line-height: 1.5em;
+    font-size: 1em;
+    padding: 10px;
+    margin: 0;
+    background-color: dimgray;
+    border: 1px solid white;
+    color: white;
+}
+
+/* ---------- THE END OF ACCORDION MENU --------- */
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:959px) {
+
+
+@media screen and (max-width:767px) {
+
+nav ul li					{font-size:0.8em;margin:0 5px;}
+    
+   
+@media screen and (max-width:459px) {
+
+    input[value="SEND"] {
+        float:none;
+        margin: 15px auto 0 auto;
+    }
+    
+    footer {
+        font-size: 0.8em;
+    }    
+
+    .contact p {
+    text-align: center; 
+    font-size: 1em;
+}
+
+    .vintage-top-border {
+    margin: 0;
+    }
+
+    .vintage-bottom-border {
+    margin: 0;
+   }
+
+    form {
+    background-image: none;
+}

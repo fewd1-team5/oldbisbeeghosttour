@@ -1,0 +1,146 @@
+
+/* ------ COLORS -------------------------- 
+
+orange:     #e5b86f
+            rgb()
+yellow:     #eac373
+            rgb()
+drakgreen:  #99933
+            rgb()
+green:      #656A07
+            rgb()
+
+---------------------------------------- */
+
+/* ------ FONTS ---------------------------
+
+font-family: 'Old Standard TT', serif;
+font-family: 'PT Sans', sans-serif;
+
+---------------------------------------- */
+
+body{
+    background-color: black;
+    width:100%;
+    height:auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size:1em;
+    background-color:darkgray;
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.container, header, nav, section, footer {   
+    width: width: 100%;
+}
+
+/* ------ headings -------------------- */
+    
+.title {
+    font-family: 'Old Standard TT', serif;
+    font-size:3.5em;
+}
+
+/* ------ links ----------------------- */
+
+
+/* HEADER */
+
+    header{
+        width: 100%;
+        height: 330px;
+        background-color:black;
+        text-align:center;
+    }
+
+    /* ------ logo ------------------------ */
+
+    #logo {
+        margin: 60px auto 40px;
+
+    }
+
+    /* ------ navegation ------------------ */
+
+    nav{
+    display:inline;
+    float:left;
+    height: 50px;
+    padding:10px;
+    margin-bottom:30px;
+    border-top: 2px solid  #eac373;
+    border-bottom: 2px solid  #eac373;
+    }
+
+    ul{
+        text-align:center;
+        margin:0 120px;
+    }
+
+    ul li{
+        display:inline;
+        float:left;
+        text-align:center;
+    }
+
+    li a { 
+        font-family: 'Old Standard TT', serif;
+        font-size:1.25em;
+        color: #656A07;
+        padding:0 30px;
+    }
+
+    #menuicon{
+        float:right;
+    }
+
+/* CONTENT */
+
+    /* ------ headings -------------------- */
+
+    .title {
+        font-family: 'Old Standard TT', serif;
+        font-size: 3em;
+        color: #e5b86f
+    }
+
+    .border1{
+        width: 920px;
+        height:84.17px;
+        background: url(images/HOME/Content/Section1/decoration_border/border%20Bottom.png) no-repeat;}
+
+    .border2{
+        height:90px;
+        background: url(images/HOME/Content/Section1/decoration_border/border%20Top.png) no-repeat;}
+
+    #section1 {
+        height: auto;
+        background-color: black;
+        margin:0;
+        }
+
+    .row{
+    }
+   
+/* FOOTER */
+
+    hr { 
+        border: 2px solid #eac373;
+    }
+
+    footer{
+    width: 100%;
+    height: 505px;
+    background-color: gray;
+    }
+
+
+
+
+
+
+
+

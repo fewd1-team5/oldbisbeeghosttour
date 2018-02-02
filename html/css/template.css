@@ -1,0 +1,115 @@
+header, nav{
+    background-color:black;
+}
+    
+header section div img {
+    width: 100%;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+nav hr, footer hr {
+    background-color: gold;
+    color: gold;
+    height: 1px;
+    margin: 0px;
+}
+
+footer hr{
+    margin-bottom: 10px;
+}
+
+.nav {
+    background-color: #4e4e25;
+    text-align: center;
+}
+
+.nav > li a { 
+    font-family: 'Old Standard TT', serif;
+    color: gold;
+}
+
+.sub-menu {
+    display:none;
+    list-style: none;
+    padding: 0px;
+}
+
+
+.sub-menu > li a {
+    font-size:.75em;
+}
+
+.slicknav_menu {
+	display:none;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.footerbox {
+    padding: 10px;
+}
+
+.tickets {
+    margin: auto;
+    border: 0px;
+    padding: 10px;
+    background-color: #4e4e25;
+    color:white;
+    border-radius: 10px;
+}
+
+.gifts {
+    color:gold;
+}
+
+.contact-us p{
+    text-align: left;
+}
+.phone {
+    display:block;
+    background: url(../images/phone.png) no-repeat left;
+    padding-left: 30px;
+}
+.email {
+    display:block;
+    background: url(../images/email.png) no-repeat left;
+    padding-left: 30px;
+}
+.contact-us a{
+    color:white;
+}
+.location {
+    display:block;
+    background: url(../images/location.png) no-repeat left;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 62em) {
+    .tripadvisor {
+        display:none;
+    }  
+}
+
+@media screen and (max-width: 36em) { 
+	.js #menu {
+		display:none;
+	}   
+	
+	.js .slicknav_menu {
+		display:block;  
+	}
+    
+    .js  hr {
+        display:none;
+    }
+    
+    .about-us, .tripadvisor {
+        display:none;
+    }
+}

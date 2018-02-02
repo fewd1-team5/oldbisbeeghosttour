@@ -1,0 +1,63 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin:0 auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: black;
+    cursor:pointer;
+}
+.tab button:hover .hostbtn{
+    border:1px solid white;
+    
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: black;
+    
+}
+.tab button.active .hostbtn{
+    border:1px solid white;
+    
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-top: none;
+}
+
+
+
+/* Style the biographies content */
+    .hostpi{
+        width:100%;
+        margin:0 auto;
+        border:1px solid black;
+    }
+    .hostbtn{
+        width:100px;
+        color:white;
+        padding:10px;
+        background-color:black;
+        text-align:center;
+        margin:0 auto;
+    }

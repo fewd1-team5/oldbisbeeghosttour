@@ -1,0 +1,159 @@
+/* ------ COLORS -------------------------- 
+
+orange:     #e5b86f
+            rgb()
+yellow:     #eac373
+            rgb()
+drakgreen:  #999933
+            rgb()
+green:      #656A07
+            rgb()
+
+---------------------------------------- */
+
+/* ------ FONTS ---------------------------
+
+font-family: 'Old Standard TT', serif;
+font-family: 'PT Sans', sans-serif;
+
+---------------------------------------- */
+
+
+    /* ------ logo ------------------------ */
+    #picture{
+    height:200px;
+background:url(../../images/ABOUT_US/pic.gif) no-repeat;
+    background-size: cover;
+    padding:10px;
+    border:7px solid black;
+}
+    #logo {
+        margin: 40px 0;
+        box-shadow: 3px 3px 7px rgb(0,0,0,0.7)
+    }
+#logotype{
+    height:200px;
+  background:url(../../images/HOME/header/Logo/logo.png) no-repeat black;
+    background-position: center;
+}
+
+    /* ------ Main Navegation ------------------ */
+
+
+    /* ------ Aside Menu------------------ */
+
+    #headeraside{
+        height:200px;
+        background: url(../../images/ABOUT_US/chair.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    #headeraside:hover{
+        height:200px;
+        background: url(../../images/ABOUT_US/chair.gif) no-repeat;
+        background-size: cover;
+    }
+
+    /* ------ Aside Menu------------------ */
+
+    #asidenav{
+            width:100%;
+            height: auto;
+        background-color: #e5b86f;
+    }
+
+    #asidenav ul{
+        text-align:center;
+        margin:0 120px;
+    }
+
+    #asidenav ul li{
+        display:inline;
+        float:left;
+        text-align:center;
+    }
+
+    #asidenav ul li a { 
+        font-family: 'PT Sans', sans-serif;
+        font-size:1.25em;
+        color: white;
+        padding:10px 20px;
+        text-align: center;
+        
+    }
+
+    #asidenav ul li a:hover { 
+        font-family: 'PT Sans', sans-serif;
+        font-size:1.25em;
+        color: black;
+        background-color:white;
+        text-decoration: none;
+    }
+
+/* CONTENT */
+
+    .title {
+        font-family: 'Old Standard TT', serif;
+        font-size:1.5em;
+        color:#e5b86f;
+         padding: 10px 0;
+        text-align:center;
+        
+    }
+
+    /* Read More button ------------------------ */
+   
+    .morebtn {
+    background-color: rgba(0,0,0,0);
+     border:none;
+      color: white;
+      text-align: left;
+      font-size: 1.25em;
+      transition: all 0.6s;
+      cursor: pointer;
+    }
+
+    .morebtn span {
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.6s;
+    }
+
+    .morebtn span:after {
+      color: white;
+      content: ' >>';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.6s;
+    }
+
+    .morebtn:hover span {
+      padding-right: 25px;
+      color: white;
+    }
+
+    .morebtn:hover span:after {
+      color: white;
+      opacity: 1;
+      right: 0;
+    }
+
+.prize{
+    border:1px solid white;
+    padding: 10px;
+}
+    /* SECTION 3 ----------------------- */
+
+#section3{
+    height:305px;
+    width:100%;
+    background:black;
+    color:white;
+    margin-top:40px;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
+}
+

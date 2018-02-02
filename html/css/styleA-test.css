@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size:1em;
+    background-color:darkgray;
+}
+
+.carousel, .tour {
+    background: black;
+}
+
+main {
+    background: url("../images/ghostbackground.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 10px;
+    
+}
+
+main a {
+    color:gold;
+}
+
+.tour {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tours a {
+    color:white;
+}
+
+#welcome {
+    text-align: center;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+#welcome h1 {
+    font-family: 'Old Standard TT', serif;
+    color: gold;
+}
+
+.tour-info {
+    background-color: #333333;
+    color: white;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.tour-misc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+    "div-1 div-2"
+    "div-3 div-3";
+    grid-gap: 20px;
+}
+
+.policies {
+    background-color: #282a03;
+    color: #515508;
+    padding: 10px;
+}
+.bookbox {text-align: center; padding:30px; }
+.booknow {
+    border: 0px;
+    padding: 10px 30px;
+    background-color: #ad8a18;
+    color:white;
+}
+.tour-phone-price 	{grid-area: div-1;}
+.tour-online-price 	{grid-area: div-2;}
+.tour-media     	{grid-area: div-3;}
+.tour-phone-price, .tour-online-price  {border: dashed gold;padding:10px;color:white;}
+.tour-phone-price h4, .tour-online-price h4 {color:gold;font-weight: bold;}
+
+.box {
+    padding: 10px;
+}
+
+.info {
+    background-color: #4e4e25;
+    color: white;
+    opacity: 0.75;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 76em) { 
+	main h3 {
+        font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 62em) { 
+	main h3 {
+        font-size: 1.25em;
+	} 
+}
+
+
+@media screen and (max-width: 48em) { 
+	main h3 {
+        font-size: 1.25em;
+	} 
+}
+@media screen and (max-width: 36em) { 
+	#welcome h1 {
+        font-size: 1.5em;
+	}
+    #tour-options {
+        display: none;
+    }
+
+    main:hover #tour-options {
+        display: block;
+    }
+}
+@media screen and (min-width: 62em) { 
+    .tours .info {
+        height: 100px;
+        padding-top: 30px;
+    }
+    .tours {
+        padding-bottom:50px;
+    }
+}

@@ -1,0 +1,89 @@
+/* Carousel */
+
+.carousel, .tourinfo {
+    background: black;
+}
+
+/* Main */
+
+main {
+    background: url("../images/ghostbackground.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 10px;
+    
+}
+
+/* Headings: Lindenvu */
+
+#welcome {
+    text-align: center;
+}
+
+#welcome h1 {
+    font-family: 'Old Standard TT', serif;
+    font-size:1.5em;
+    color: gold;
+}
+
+/* Main Tours */
+
+main a {
+    color:gold;
+}
+
+.tours a {
+    color:white;
+}
+
+.tourinfo .border {
+    height: 50px;
+}
+
+.box {
+    padding: 10px;
+}
+
+.info {
+    background-color: #4e4e25;
+    color: white;
+    opacity: 0.75;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Media Queries - Home Content */
+
+@media screen and (max-width: 76em) { 
+	main h3 {
+        font-size: 1.5em;
+	}
+    .tourinfo .border {
+    height: 100px;
+}
+}
+@media screen and (max-width: 48em) { 
+	main h3 {
+        font-size: 1.25em;
+	} 
+    .tourinfo .border {
+        height: 75px;
+    }
+}
+@media screen and (max-width: 36em) { 
+	main h1 {
+        font-size: 1.5em;
+	}
+    .tourinfo .border {
+    height: 50px;
+}
+}
+@media screen and (min-width: 62em) { 
+    .tours .info {
+        height: 100px;
+        padding-top: 30px;
+    }
+    .tours {
+        padding-bottom:50px;
+    }
+}

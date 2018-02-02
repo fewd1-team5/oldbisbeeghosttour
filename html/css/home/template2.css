@@ -1,0 +1,129 @@
+#vintage-top-border {
+    margin: 40px 0 30px 0;
+    height: 86px;
+    background: url('../images/vintage-border.svg') no-repeat center;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+body{
+    background-color:black;
+}
+
+header, nav{
+    background-color:black;
+}
+    
+header section div img {
+    width: 100%;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+nav hr, footer hr {
+    background-color: gold;
+    color: gold;
+    height: 1px;
+    margin: 0px;
+}
+
+footer hr{
+    margin-bottom: 10px;
+}
+
+.nav {
+    background-color: #4e4e25;
+    text-align: center;
+}
+
+.nav > li a { 
+    font-family: 'Old Standard TT', serif;
+    color: gold;
+}
+
+.sub-menu {
+    display:none;
+    list-style: none;
+    padding: 0px;
+}
+
+
+.sub-menu > li a {
+    font-size:.75em;
+}
+
+.slicknav_menu {
+	display:none;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.footerbox {
+    padding: 10px;
+}
+
+.tickets {
+    margin: auto;
+    border: 0px;
+    padding: 10px;
+    background-color: #4e4e25;
+    color:white;
+    border-radius: 10px;
+}
+
+.gifts {
+    color:gold;
+}
+
+.contact-us a{
+    color:white;
+    padding-left: 30px;
+    text-align: left;
+    display: block;
+}
+.phone {
+    background: url(../images/phone.png) no-repeat left;
+}
+.email {
+    background: url(../images/email.png) no-repeat left;
+}
+.location {
+    background: url(../images/location.png) no-repeat left;
+}
+
+@media screen and (max-width: 62em) {
+    .tripadvisor {
+        display:none;
+    }  
+}
+
+@media screen and (max-width: 36em) { 
+	.js #menu {
+		display:none;
+	}   
+	
+	.js .slicknav_menu {
+		display:block;  
+	}
+    
+    .js  hr {
+        display:none;
+    }
+
+    .contact-us a {
+        display:inline;
+        padding: 15px;
+    }
+    
+    .footerinfo, .about-us, .tripadvisor {
+        display:none;
+    }
+}

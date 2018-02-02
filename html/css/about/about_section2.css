@@ -1,0 +1,114 @@
+/* SECTION 2 - about_bisbee */
+
+.bgsection {
+    height:auto;
+    margin-bottom:30px;
+    background:url(../../Images/aboutbisbee/bg.jpg) no-repeat;
+    background-size: cover;
+}
+.frameinfo{
+    display:block;
+    float:left;
+    width:300px;
+    height:auto;
+    margin: 60px 30px 60px 15px;
+    padding:10px;
+    border-radius:10px;
+}
+.frameinfo p{
+    margin:10px 0 10px;
+    font-size:0.85em;
+}
+.frame1{
+    color:white;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+.frame2{
+   height:265px; background:url(../../images/aboutbisbee/BG_bisbee_footer.png) no-repeat;
+    background-size:cover;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.framebook{
+    text-align:center;
+    background-color:black;
+}
+.book{
+    margin:30px auto;
+    background-size:100% 265px;
+}
+
+/* SECTION 2 - about_us */
+
+.black{
+    color:black;
+}
+
+.video_promo{
+    margin:0;
+    padding:0;
+    border-radius:5px;
+    width:100%;
+    height:auto;
+}
+.frame3{
+    background:url(../../Images/aboutus/BG_footer.png) no-repeat;
+    background-size:cover;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+.bi_text{
+    margin:20px 0;
+    
+}
+
+
+.album{
+    background:url(../../Images/aboutus/paper.jpg) no-repeat;
+    padding:20px;
+    background-size:cover;
+    border-radius:10px;
+}
+.tab{
+    background:-color:red;
+}
+.bioimg{
+    width:100%;
+}
+.tablinks{
+    background-color:black;
+    border:none;
+}
+
+/*Media Queries */
+
+@media (max-width: 991px) {
+    .section2{
+        
+    }
+    .bgsection{
+        background-size: cover;
+        height:auto;
+        margin:20px;
+    }
+    .frameinfo{
+        width:150px;
+        height:auto;
+        margin:20px 0;
+    }
+    .frameinfo p{
+        width:auto;
+    margin:20px 0;
+    font-size:0.85em;
+    }
+    .frame1{
+        width:100%;
+        height:auto;
+    }
+    .frame2{
+        display:none;
+    }
+    .frame3{
+        display:none;
+    }
+}

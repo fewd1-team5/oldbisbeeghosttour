@@ -1,0 +1,89 @@
+.heading {
+        font-family: 'Old Standard TT', serif;
+        font-size:1.5em;
+        color:#e5b86f;
+         padding: 10px 0;
+        text-align:center;
+    }
+.h1black {
+    color:black;
+}
+
+/* SECTION 1 */
+
+/* Places Information */
+
+.place{
+    height:220px;
+    margin:5px;
+    padding:10px;
+    border-radius:3px;
+}
+.place1{
+    background-color:#999;
+
+}
+.place2{
+    background-color:rgb(210,210,210);
+
+}
+.place3{
+    height:auto;
+    background-color:rgb(210,210,210);
+
+}
+.placelogo{
+   height:200px;
+}
+.placelogo1{
+   background: url(../../Images/aboutbisbee/sweet_midnight2.png) no-repeat rgb(210,210,210);
+   background-position: center;
+   background-size:100%;
+}
+.placelogo2{
+   background: url(../../Images/aboutbisbee/Cooper_queen.png) no-repeat darkgreen;
+   background-position: center;
+   background-size:100%;
+}
+.placelogo3{
+   background: url(../../Images/aboutbisbee/discover_bisbee.png) no-repeat black;
+   background-position: center;
+   background-size:100%;
+}
+.placelogo4{
+   background: url(../../Images/aboutbisbee/hotel_lamore.png) no-repeat darkcyan;
+   background-position: center;
+   background-size:100%;
+}
+
+.placeinfo{
+    color:#222;
+}
+
+/* Special Read Button */
+
+.placebtn{
+    background-color: black;
+    color: #e5b86f;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.placebtn:hover{
+    background-color: #e5b86f;
+    color: black;
+    cursor:pointer;
+    text-decoration:none;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+
+
+@media (max-width: 767px) { 
+
+    .place2{
+    height:auto;
+
+}
+}
+
+    

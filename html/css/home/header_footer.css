@@ -1,0 +1,340 @@
+/* ------ COLORS ---------------------------------- 
+
+Heading Page / Border Navegation / Border Footer --
+
+    orange:     #e5b86f
+
+Background / Border Navegation / Border -----------
+
+    darkgreen:  #999933
+            
+    green:      #656A07
+               
+-------------------------------------------------- */
+
+/* ------ FONTS ----------------------------------
+
+Heading Page / Navegation ------------------------
+
+font-family: 'Old Standard TT', serif;
+
+Text / buttons ----------------------------------- 
+
+font-family: 'PT Sans', sans-serif;
+
+-------------------------------------------------- */
+/* Main Styles */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size:1em;
+    background-color:black;
+}
+
+body, header, nav{
+    color:white;
+}
+    
+header section div img {
+    width: 100%;
+}
+
+/* Logo */
+
+.logo{
+    margin:20px;
+}
+
+/* Border decoration */
+
+.deco{
+    margin:20px;
+    height:86px;
+}
+
+.deco1 {
+    background: url(../../Images/home/line_Top.png) no-repeat center;
+    background-size: contain;
+}
+
+.deco2 {
+    background: url(../../Images/home/line_bottom.png) no-repeat center;
+    background-size: contain;
+}
+
+/* Headings */
+
+.heading {
+    font-family: 'Old Standard TT', serif;
+    font-size:2em;
+    color: #e5b86f; /*No gold*/
+    text-align: center;
+}
+
+
+/* Navegation */
+
+nav {
+    height:40px;
+    border-top:2px solid #e5b86f; /*No gold*/
+    border-bottom:2px solid #e5b86f; /*No gold*/
+}
+
+.nav {
+    background-color: black; /*No green*/
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav > li  { 
+    height:30px;
+    padding: 7px 0;
+}
+
+.nav > li a { 
+    padding:12px 20px 8px;
+    font-family: 'Old Standard TT', serif;
+    color: #e5b86f; /*No gold*/
+    text-decoration:none;
+}
+
+.nav > li a:hover { 
+    background-color:#e5b86f; /*No black*/
+    color: black; /*No gold*/
+
+}
+
+.sub-menu {
+    display:none;
+    list-style: none;
+    padding: 10px;/*Give padding*/
+    border-radius:10px;
+}
+
+.sub-menu1 {/*NEW*/
+    width:240px;/*more width for Pricing submenu*/
+}
+
+.sub-menu2 {/*NEW*/
+    width:170px;/*less width for More submenu*/
+}
+
+.sub-menu > li a {
+    padding:5px 10px;/*Give padding*/
+    font-size:1em;/*Normal size font*/
+}
+
+.slicknav_menu {
+	display:none;
+}
+
+/* Section 3 - Footer */
+
+.section3{
+    padding:30px;
+}
+
+/* Footer */
+
+hr{
+    background-color: #e5b86f; /*No gold*/
+    color: #e5b86f; /*No gold*/
+    height: 1px;
+    margin: 0px;
+}
+
+footer hr{
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+
+.footerbox {
+    padding: 10px;
+}
+/* Ticket Button */
+
+.tickets {
+    margin: 0 auto;
+    padding: 10px 40px;
+    background-color: #4e4e25;
+    color:white;
+}
+.tickets:hover {
+    cursor:pointer;
+    background-color: #e5b86f; /*No gold*/
+    color:black;
+    text-decoration:none;
+}
+
+/* Gifts Button */
+
+
+.gifts {
+    margin: 10px auto;
+    padding: 5px 40px;
+    background-color: black; /*No gold*/
+    border:1px solid #e5b86f; /*No gold*/
+    color:#e5b86f; /*No gold*/
+    text-decoration:none;
+}
+.gifts:hover {
+    cursor:pointer;
+    background-color: #e5b86f; /*No gold*/
+    color:black; /*No gold*/
+    text-decoration:none;
+}
+
+.tripadvisor {
+    display:block;
+    margin:10px;
+    background:url(../../Images/home/tripadvisor.jpg) no-repeat center;
+    background-size: auto 100%;
+    } 
+    
+
+/* Contact Us Links*/
+.contact-us a{
+    color:white;
+    padding-left: 30px;
+    text-align: left;
+    display: block;
+}
+.contact-us a:hover{
+    color:#e5b86f; /*No gold*/
+    text-decoration:none;
+    cursor:pointer;
+}
+
+/* Contact Icons */
+
+.phone {
+    background: url(../../Images/home/phone.png) no-repeat left;
+}
+.email {
+    background: url(../../Images/home/email.png) no-repeat left;
+}
+.location {
+    background: url(../../Images/home/location.png) no-repeat left top;
+}
+
+/* Social Media Icons*/ 
+
+.smicons{
+    margin:20px;
+}
+
+/* Media Queries - Home Header & Footer */
+
+@media screen and (max-width: 62em) and (min-width: 36em)  {
+    .tripadvisor {
+        display:none;
+    } 
+    
+    .nav > li > a {
+        font-size:0.75em;/*NEW*/
+        padding:15px 5px 10px;/*less padding*/
+        color: #e5b86f; /*No gold*/
+    } 
+    .sub-menu > li a {
+        font-size:0.8em;
+    } 
+}
+
+@media screen and (max-width: 36em) { 
+	.js #menu {
+		display:none;
+        color:white;
+	}   
+    .js .slicknav_menu li{
+		display:block;  
+        background-color:#4e4e25;
+        width:100%;
+	}
+    .js .slicknav_menu li:first-child {
+		display:block;  
+        background-color:#4e4e25;
+        margin-top:14px;
+
+	}
+    
+    .js .slicknav_menu li a {
+		display:block;  
+        background-color:#4e4e25;
+        padding:5px 10px;
+	}
+    .js .slicknav_menutxt  {/*NEW- MEnu icon*/
+        font-family: 'PT Sans', sans-serif;
+        color:#e5b86f; /*No gold*/
+        padding:10px;
+        background-color:black; /*No gold*/
+        border-radius:3px;
+    }  
+    
+    .js .slicknav_menutxt:hover  {/*NEW- MEnu icon*/
+        color:black; /*No gold*/
+        padding:10px;
+        background-color:#e5b86f; /*No gold*/
+    } 
+    
+    .js .slicknav_menu {
+        height:55px;
+		display:block;  
+        background-color:#4e4e25;
+        padding:15px 10px;
+	}
+    hr {
+        border:1px solid #e5b86f; /*No gold*/
+    }
+    
+    nav{
+        border:none;
+        display:none;
+    }
+    .nav > li > a {
+        font-size:0.85em;/*NEW*/
+        padding:10px 15px;/*less padding*/
+    }
+    
+    .tickets{
+        padding: 20px;
+    }
+    .contacttitle{
+        font-size:1.5em;
+        padding-left:9px;
+    }
+    .contact-us a {
+        display:inline;
+        padding: 15px 20px;
+        background-position: center;
+    }
+    
+    .footerinfo, .about-us, .tripadvisor {
+        display:none;
+    }
+}
+
+
+@media screen and (min-width: 36em) { 
+    .nav {
+        height: 30px;
+    }
+    .sub-menu {
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: left;
+        background-color: #4e4e25;
+    }
+    .prices {
+        min-width: 125px;
+    }
+    .dropdown:hover .sub-menu {
+        display:block;
+    }
+}

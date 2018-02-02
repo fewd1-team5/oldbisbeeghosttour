@@ -1,0 +1,146 @@
+header, nav{
+    background-color:black;
+}
+    
+header div img {
+    width: 100%;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+nav hr, footer hr {
+    background-color: gold;
+    color: gold;
+    height: 1px;
+    margin: 0px;
+}
+
+footer hr{
+    margin-bottom: 10px;
+}
+
+nav .nav {
+    background-color: #4e4e25;
+    text-align: center;
+    padding: 0px;
+}
+
+nav .nav > li a { 
+    font-family: 'Old Standard TT', serif;
+    color: gold;
+}
+
+nav .nav > li  { 
+    padding: 0px
+}
+
+
+nav .sub-menu {
+    display:none;
+    list-style: none;
+    padding: 3px;
+}
+
+
+nav .sub-menu > li a {
+    font-size:.75em;
+}
+
+nav .slicknav_menu {
+	display:none;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+footer .footerbox {
+    padding: 10px;
+}
+
+footer .tickets {
+    margin: auto;
+    border: 0px;
+    padding: 10px;
+    background-color: #4e4e25;
+    color:white;
+    border-radius: 10px;
+}
+
+footer .gifts {
+    color:gold;
+}
+
+footer .contact-us a{
+    color:white;
+    padding-left: 30px;
+    text-align: left;
+    display: block;
+}
+footer .phone {
+    background: url(../images/phone.png) no-repeat left;
+}
+footer .email {
+    background: url(../images/email.png) no-repeat left;
+}
+footer .location {
+    background: url(../images/location.png) no-repeat left;
+}
+
+@media screen and (max-width: 62em) and (min-width: 36em)  {
+    footer .tripadvisor {
+        display:none;
+    } 
+    nav .sub-menu > li a {
+        font-size:.6em;
+    }    
+    nav .nav > li > a {
+        font-size:.85em;
+    }          
+}
+
+@media screen and (max-width: 36em) { 
+	.js #menu {
+		display:none;
+	}   
+	
+	.js .slicknav_menu {
+		display:block;  
+	}
+    
+    nav hr, footer hr {
+        display:none;
+    }
+
+    footer .contact-us a {
+        display:inline;
+        padding: 15px;
+    }
+    
+    footer .footerinfo, footer .about-us, footer .tripadvisor {
+        display:none;
+    }
+}
+
+
+@media screen and (min-width: 36em) { 
+    nav .nav {
+        height: 30px;
+    }
+    nav .sub-menu {
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        text-align: left;
+        background-color: #4e4e25;
+    }
+    nav .prices {
+        min-width: 125px;
+    }
+    nav .dropdown:hover .sub-menu {
+        display:block;
+    }
+}
